@@ -19,7 +19,7 @@ def jobs():
 
 def test_sort_by_criteria(jobs):
     """Testing if the function returns a list with jobs"""
-    """sorted by the right criteria."""
+    """sorted by the right criteria. """
 
     sort_by(jobs, "min_salary")
     assert jobs == jobs_by_min_salary
