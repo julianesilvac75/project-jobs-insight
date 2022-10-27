@@ -4,7 +4,7 @@ from src.counter import count_ocurrences
 def test_counter():
     """Testing if the function returns"""
     """the right amount of words when searching for"""
-    """Javascript and Python, and if the function is case insensitive"""
+    """Javascript and Python, and if the function is case insensitive."""
 
     path = "src/jobs.csv"
     python_amount = 1639
